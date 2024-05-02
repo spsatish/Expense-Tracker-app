@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:background="@drawable/rounded"
+    android:padding="40dp">
+
+
+    <EditText
+        android:id="@+id/editText_expense_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Expense Name"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="#9E9E9E"
+        android:textSize="20sp" />
+
+
+    <EditText
+
+        android:id="@+id/editText_expense_amount"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:hint="Expense Amount"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="#9E9E9E"
+        android:textSize="20sp" />
+
+    <EditText
+
+        android:id="@+id/editText_expense_category"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:hint="Expense Category"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="#9E9E9E"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editText_expense_amount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/design_default_color_error"
+        android:backgroundTintMode="multiply"
+        android:text="Save"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_save"
+        android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>

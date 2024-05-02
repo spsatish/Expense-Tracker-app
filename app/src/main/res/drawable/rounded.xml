@@ -1,0 +1,6 @@
+<!-- rounded_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="40dp" /> <!-- Adjust the radius as per your preference -->
+    <solid android:color="#FFF5EE" />
+    <padding android:bottom="@android:dimen/app_icon_size" android:layout_centerInParent="true"/>
+</shape>

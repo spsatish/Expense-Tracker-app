@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_expense_name" type="id" />
+    <item name="text_expense_amount" type="id" />
+    <item name="button_delete" type="id" />
+</resources>
